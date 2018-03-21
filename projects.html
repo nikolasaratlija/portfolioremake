@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="projectscarousel" id="projectscarousel">
+<header>
+    <span class="mobilenav" id="mobilenav">☰</span>
+    <nav id="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1><span class="big">MY OWN</span><br><span class="smaller">PROJECTS</span></h1>
+    <h2>A selection of projects I have made during my free time.</h2>
+    <p>I am Nikola. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias animi aut commodi
+        consequatur distinctio, ducimus eaque.</p>
+    <a href="#" class="buttons">Learn more</a>
+</header>
+<main>
+    <div class="carouselouter">
+        <span class="arrow left" onclick="slideLeft()"></span>
+        <div class="carouselinner">
+            <ul class="slides">
+                <li class="slide one"></li>
+                <li class="slide two"></li>
+                <li class="slide three"></li>
+            </ul>
+        </div>
+        <span class="arrow right" onclick="slideRight()"></span>
+    </div>
+
+    <div class="howtohire" id="howtohire">
+        <h2 class="forFadeIn">HOW TO HIRE</h2>
+        <h3 class="forFadeIn">How to <span style="color: cadetblue">Reach</span> and <span style="color: cadetblue">Contact</span> me.</h3>
+        <p class="forFadeIn">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque autem dicta eos laborum maxime nisi officiis
+            recusandae sint sunt tempore? Aliquid ducimus esse id ipsam laboriosam, nobis odit officia provident?</p>
+        <a href="contact.html" class="buttons forFadeIn">Link to form</a>
+    </div>
+</main>
+<footer>
+    <h4>Nikola Saratlija</h4>
+    <p>saratlijanikola@gmail.com</p>
+    <div>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="jquery.waypoints.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
