@@ -168,10 +168,10 @@ footer {
   padding: 5vh 0;
   background: url(https://www.transparenttextures.com/patterns/shattered-dark.png) #000;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 
   .info {
-    grid-column: 3;
+    grid-column: 2;
   }
 
   h4 {
