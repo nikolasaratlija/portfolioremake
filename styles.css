@@ -4,6 +4,11 @@ header, .howtohire, footer, .index .aboutme, .index .project, .portfolio .portpr
   flex-direction: column;
   align-items: center; }
 
+footer .fa {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 body {
   width: 100%;
   font-family: Poppins, sans-serif;
@@ -19,7 +24,7 @@ p {
   text-align: center;
   margin: 0 20%;
   line-height: 1.618;
-  font-size: 2vh; }
+  font-size: 2.25vh; }
 
 .forFadeIn {
   transition: opacity 500ms ease-in;
@@ -45,7 +50,8 @@ header {
 
 .big {
   font-size: 25vh;
-  line-height: 1; }
+  line-height: 1;
+  display: block; }
 
 .smaller {
   font-size: 17.5vh;
@@ -57,8 +63,8 @@ h2 {
   text-align: center; }
 
 .buttons {
-  padding: 0.75em 1.5em;
-  border-radius: 5px 20px;
+  padding: 2vh 3.5vh;
+  border-radius: 0.5vh 3vh;
   border: 1px solid white;
   font-family: Poppins, sans-serif;
   font-size: 2vh; }
@@ -79,7 +85,7 @@ nav {
     justify-content: center; }
   nav li {
     list-style-type: none;
-    font-size: 2vh;
+    font-size: 2.25vh;
     margin: 0 3.5vh;
     transition: all .2s ease-in-out; }
     nav li:hover {
@@ -90,7 +96,7 @@ nav {
 .mobilenav {
   display: none;
   user-select: none;
-  padding: 0.25em;
+  padding: 1vh;
   font-size: 7vh;
   line-height: 1; }
 
@@ -121,32 +127,46 @@ main {
 
 footer {
   padding: 5vh 0;
-  background: url(https://www.transparenttextures.com/patterns/shattered-dark.png) #000; }
+  background: url(https://www.transparenttextures.com/patterns/shattered-dark.png) #000;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+  footer .info {
+    grid-column: 3; }
   footer h4 {
-    font-size: 2vh;
-    margin: 0; }
+    font-size: 2.125vh;
+    margin: 0;
+    text-align: center; }
   footer p {
-    font-size: 1.5vh;
+    font-size: 1.6125vh;
     margin: 0; }
-  footer div {
-    width: 10%;
-    margin-top: 4vh;
+  footer .links {
+    width: 10vw;
+    margin: 4vh auto 0;
     display: flex;
     justify-content: space-between; }
-  footer a {
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-    width: 4.5vh;
-    height: 4.5vh;
+  footer .fa {
+    width: 5vh;
+    height: 5vh;
     border-radius: 100%;
-    font-size: 2vh; }
+    font-size: 2.5vh; }
   footer .fa-facebook {
     background-color: #3b5998; }
   footer .fa-twitter {
     background-color: #55acee; }
   footer .fa-linkedin {
     background-color: #0077B5; }
+  footer .signature {
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw; }
+    footer .signature p {
+      text-align: start;
+      font-family: Lato, sans-serif;
+      font-size: 8vh;
+      font-weight: bolder;
+      color: #151618;
+      line-height: 1; }
 
 /*<======= end of classes and styling used across several pages =====>*/
 /*<======= styling of individual pages ======>*/
@@ -178,7 +198,7 @@ footer {
     line-height: 0.9; }
   .index .project p {
     margin: 2vh 2.5vh;
-    font-size: 1.75vh; }
+    font-size: 2.25vh; }
   .index .project .buttons {
     font-size: 2vh; }
 .index .howtohire {
@@ -209,7 +229,7 @@ footer {
     line-height: 0.9; }
   .portfolio .portproject p {
     margin: 2vh 2.5vh;
-    font-size: 1.75vh; }
+    font-size: 2.25vh; }
 .portfolio .portproject1 {
   background: linear-gradient(135deg, #4dd2ff 0%, #63d4bd 100%); }
 .portfolio .portproject2 {
@@ -268,10 +288,10 @@ footer {
 .images header {
   background: linear-gradient(135deg, #f9138a 2%, #b71215 100%); }
 .images .mouseanim {
-  min-height: 10vh;
-  width: 2.5%;
+  min-height: 11.5vh;
+  width: 4.75vh;
   border: 1.5px solid white;
-  border-radius: 25px; }
+  border-radius: 3vh; }
 .images .mainimagesouter {
   background-color: gainsboro; }
 .images .mainimagesinner {
@@ -282,7 +302,7 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   grid-gap: 5vh; }
-  .images .mainimagesinner .test {
+  .images .mainimagesinner div {
     width: 400px;
     height: 33.3333333333vh;
     background-color: red; }
@@ -351,6 +371,8 @@ footer {
     margin-bottom: 2.5%;
     font-size: 20vh;
     color: black; }
+  .aboutmepage .aboutmepart p {
+    font-size: 2.5vh; }
 
 /*<======= Start of css lines responsible for responsive behaviour*/
 @media screen and (max-width: 1366px) {
@@ -362,10 +384,13 @@ footer {
     font-size: 2.5vh; }
 
   .big {
-    font-size: 20vh; }
+    font-size: 15vh; }
 
   .smaller {
-    font-size: 15vh; }
+    font-size: 12vh; }
+
+  .shorter {
+    font-size: 10vh; }
 
   header h2 {
     margin: 3vh 6vh;
@@ -398,23 +423,29 @@ footer {
     margin: 3vh 0; }
 
   footer {
-    padding: 1em 0; }
+    grid-template-columns: 1fr; }
+    footer .signature {
+      display: none; }
+    footer .links {
+      width: 40%; }
     footer h4 {
       font-size: 3vh; }
     footer p {
       font-size: 2vh; }
-    footer div {
-      width: 40%; }
     footer a {
       width: 6vh;
       height: 6vh; }
+    footer .info {
+      justify-self: center;
+      width: 100%;
+      grid-column: auto; }
 
   p {
     margin: 0 10%;
     font-size: 2.5vh; }
 
   .index .aboutme h2 {
-    font-size: 4em; }
+    font-size: 12vh; }
   .index .aboutme h3 {
     margin: 5% 10%;
     text-align: center; }
@@ -427,9 +458,6 @@ footer {
   .portfolio .portproject {
     min-height: 35vh;
     padding: 6vh 2vh; }
-    .index .project h2,
-    .portfolio .portproject h2 {
-      font-size: 3.0em; }
     .index .project p,
     .portfolio .portproject p {
       font-size: 2.5vh;
@@ -456,6 +484,9 @@ footer {
     margin-bottom: 2.5vh; }
 
   .images .mainimagesinner {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr;
+    grid-gap: 2.5vh; }
+    .images .mainimagesinner div {
+      width: 90vw; } }
 
 /*# sourceMappingURL=styles.css.map */
