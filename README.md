@@ -10,10 +10,9 @@ HTML5,
 SCSS,
 JavaScript libraries:
 	GSAP,
-	Waypoints,
-	jQuery.
+	Waypoints
 Git,
-Node Package Manager,
+Node Package Manager:
 	webp-converter-cli (WebP foto formaat conversie)
 	
 

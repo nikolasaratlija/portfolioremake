@@ -3,18 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e9898ebd-1de4-4097-860a-f16167475d2f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutme.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images.html" beforeDir="false" afterPath="$PROJECT_DIR$/images.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/js/TweenLite.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/styles/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/js/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/styles/js/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,20 +14,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="portfolio.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portfolio.html">
+      <file leaf-file-name="slider.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/js/slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="757">
-              <caret line="80" column="49" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="49" />
+            <state relative-caret-position="672">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projects.html">
+      <file leaf-file-name="aboutme.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aboutme.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state relative-caret-position="1995">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="734">
+              <caret line="62" column="49" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="294">
+                <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -97,6 +107,7 @@
         <option value="$PROJECT_DIR$/styles/js/scripts.js" />
         <option value="$PROJECT_DIR$/styles/js/slider.js" />
         <option value="$PROJECT_DIR$/projects.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -258,7 +269,7 @@
       <workItem from="1522332308828" duration="28000" />
       <workItem from="1523226505489" duration="964000" />
       <workItem from="1523306172202" duration="6909000" />
-      <workItem from="1523391433279" duration="5844000" />
+      <workItem from="1523391433279" duration="6099000" />
     </task>
     <task id="LOCAL-00001" summary="removing jQuery dependency(and other optimizations)">
       <created>1523312770006</created>
@@ -274,23 +285,29 @@
       <option name="project" value="LOCAL" />
       <updated>1523312893769</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="removed dependency on jQuery">
+      <created>1523397462735</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523397462735</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129041000" />
+    <option name="totallyTimeSpent" value="129296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49568966" visible="true" weight="0.20788912" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49568966" visible="true" weight="0.20788912" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50208336" side_tool="true" weight="0.32305196" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32749742" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32749742" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49791667" weight="0.3196481" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32955715" />
@@ -318,7 +335,8 @@
       <path value="$USER_HOME$" />
     </ignored-roots>
     <MESSAGE value="removing jQuery dependency(and other optimizations)" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing jQuery dependency(and other optimizations)" />
+    <MESSAGE value="removed dependency on jQuery" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed dependency on jQuery" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -552,20 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aboutme.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="62" column="49" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="755">
@@ -587,17 +591,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/js/slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/js/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aboutme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="62" column="49" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="294">
+            <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
