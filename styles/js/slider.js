@@ -1,13 +1,33 @@
+var slides = document.getElementById("slides");
+var slide = document.querySelectorAll(".slide");
+
+var iterationLeft = 2;
+var iterationRight = 0;
+
 function slideLeft() {
-    $(".slides").animate({'margin-left': '+=100%'}, 300, function () {
-        $(".slide:first").before($(".slide:last"));
-        $(".slides").css({'margin-left': '-100%'})
+    TweenMax.to(slides, .3, {
+        'margin-left': '+=100%',
+        onComplete: function () {
+            slides.insertBefore(slide[iterationLeft], slides.childNodes[0]);
+            TweenMax.set(slides, {'margin-left': '-100%'});
+            iterationLeft++
+        }
     });
+    if(iterationLeft > 2){
+        iterationLeft = 0;
+    }
 }
 
 function slideRight() {
-    $(".slides").animate({'margin-left': '-=100%'}, 300, function () {
-        $(".slide:last").after($(".slide:first"));
-        $(".slides").css({'margin-left': '-100%'})
+    TweenMax.to(slides, .3, {
+        'margin-left': '-=100%',
+        onComplete: function () {
+            slides.appendChild(slide[iterationRight]);
+            TweenMax.set(slides, {'margin-left': '-100%'});
+            iterationRight++
+        }
     });
+    if(iterationRight > 2){
+        iterationRight = 0;
+    }
 }

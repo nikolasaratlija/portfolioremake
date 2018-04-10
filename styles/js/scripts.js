@@ -9,24 +9,28 @@ for (var i = 0; i < fadeInElements.length; i++) {
     });
 }
 
-$("#mobilenav").on('click', function () {
-    $(this).toggleClass('mobilenavblack');
-    $("#nav").slideToggle()
-});
+var navIsShown = false;
+var nav = document.getElementById("nav");
 
-// var navIsShown = false;
-//
-// document.getElementById('mobilenav').addEventListener('click', function () {
-//     this.classList.toggle('mobilenavblack');
-//
-//     if (!navIsShown) {
-//         document.getElementById('nav').style.display = 'block';
-//         TweenMax.to('#nav', .25, {height:'250'});
-//         navIsShown = true;
-//     } else {
-//         document.getElementById('nav').style.display = 'none';
-//         TweenMax.to('#nav', 1, {height:'0'});
-//         navIsShown = false;
-//     }
-// });
+document.getElementById('mobilenav').addEventListener('click', function () {
+    this.classList.toggle('mobilenavblack');
+
+    if (!navIsShown) {
+        TweenMax.set(nav, {'display': 'block', margin: '2vh'});
+        TweenMax.to(nav, .25, {height: '26vh'});
+        navIsShown = true;
+    } else {
+        TweenMax.to(
+            nav, .25,
+            {
+                height: '0',
+                margin: '0',
+                onComplete: function () {
+                    TweenMax.set(nav, {display: 'none'});
+                }
+            }
+        );
+        navIsShown = false;
+    }
+});
 
