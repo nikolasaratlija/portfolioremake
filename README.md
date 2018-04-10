@@ -6,15 +6,14 @@ mij om de integriteit van het origineel te behouden.
 
 Technologieen gebruikt:
 
-HTML5
-SCSS
-ECMAScript 6
+HTML5,
+SCSS,
 JavaScript libraries:
 	GSAP,
 	Waypoints,
-	jQuery
-Git
-Node Package Manager
+	jQuery.
+Git,
+Node Package Manager,
 	webp-converter-cli (WebP foto formaat conversie)
 	
 
