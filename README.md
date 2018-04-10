@@ -6,14 +6,14 @@ mij om de integriteit van het origineel te behouden.
 
 Technologieen gebruikt:
 
-HTML5,
-SCSS,
-JavaScript libraries:
-	GSAP,
-	Waypoints
-Git,
-Node Package Manager:
-	webp-converter-cli (WebP foto formaat conversie)
+SCSS, 
+  
+JavaScript libraries:   
+	GSAP (TweenMax),   
+	Waypoints.  
+	
+
+Originele website link: [doc.gold.ac.uk/~abhar002/portfolio/](http://doc.gold.ac.uk/~abhar002/portfolio/)
 	
 
 
