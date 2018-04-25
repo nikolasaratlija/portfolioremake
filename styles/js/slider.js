@@ -5,12 +5,13 @@ var iterationLeft = 2;
 var iterationRight = 0;
 
 function slideLeft() {
-    TweenMax.to(slides, .3, {
+    TweenLite.to(slides, .3, {
         'margin-left': '+=100%',
         onComplete: function () {
             slides.insertBefore(slide[iterationLeft], slides.childNodes[0]);
-            TweenMax.set(slides, {'margin-left': '-100%'});
-            iterationLeft++
+            TweenLite.set(slides, {'margin-left': '-100%'});
+            iterationLeft++;
+            console.log(iterationLeft)
         }
     });
     if(iterationLeft > 2){
@@ -19,12 +20,13 @@ function slideLeft() {
 }
 
 function slideRight() {
-    TweenMax.to(slides, .3, {
+    TweenLite.to(slides, .3, {
         'margin-left': '-=100%',
         onComplete: function () {
             slides.appendChild(slide[iterationRight]);
-            TweenMax.set(slides, {'margin-left': '-100%'});
-            iterationRight++
+            TweenLite.set(slides, {'margin-left': '-100%'});
+            iterationRight++;
+            console.log(iterationRight)
         }
     });
     if(iterationRight > 2){
