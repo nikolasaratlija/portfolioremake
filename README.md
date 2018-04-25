@@ -6,13 +6,10 @@ mij om de integriteit van het origineel te behouden.
 
 Technologieen gebruikt:
 
-SCSS, 
-  
-JavaScript libraries:   
-	GSAP (TweenMax),   
-	Waypoints.  
+SCSS,   
+GSAP (TweenMax),   
+Waypoints.  
 	
-
 Originele website link: [doc.gold.ac.uk/~abhar002/portfolio/](http://doc.gold.ac.uk/~abhar002/portfolio/)
 	
 
