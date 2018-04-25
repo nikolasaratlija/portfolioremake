@@ -7,7 +7,7 @@ mij om de integriteit van het origineel te behouden.
 Technologieen gebruikt:
 
 SCSS,   
-GSAP (TweenMax),   
+GSAP (TweenLite en ScrollTo),   
 Waypoints.  
 	
 Originele website link: [doc.gold.ac.uk/~abhar002/portfolio/](http://doc.gold.ac.uk/~abhar002/portfolio/)
