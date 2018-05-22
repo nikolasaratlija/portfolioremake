@@ -1,8 +1,3 @@
-document.getElementById("button").addEventListener("click", function (ev) {
-    ev.preventDefault();
-    TweenLite.to(window, 1, {scrollTo: this.getAttribute("href")})
-});
-
 var fadeInElements = document.getElementsByClassName('forFadeIn');
 for (var i = 0; i < fadeInElements.length; i++) {
     new Waypoint({
@@ -38,3 +33,7 @@ document.getElementById('mobilenav').addEventListener('click', function () {
     }
 });
 
+document.getElementById("button").addEventListener("click", function (ev) {
+    ev.preventDefault();
+    TweenLite.to(window, 1, {scrollTo: this.getAttribute("href")})
+});
