@@ -1,5 +1,6 @@
-var fadeInElements = document.getElementsByClassName('forFadeIn');
-for (var i = 0; i < fadeInElements.length; i++) {
+const fadeInElements = document.getElementsByClassName('forFadeIn');
+
+for (let i = 0; i < fadeInElements.length; i++) {
     new Waypoint({
         element: fadeInElements[i],
         handler: function () {
@@ -8,8 +9,8 @@ for (var i = 0; i < fadeInElements.length; i++) {
     });
 }
 
-var navIsShown = false;
-var nav = document.getElementById("nav");
+let navIsShown = false;
+const nav = document.getElementById("nav");
 
 document.getElementById('mobilenav').addEventListener('click', function () {
     this.classList.toggle('mobilenavblack');
@@ -33,7 +34,11 @@ document.getElementById('mobilenav').addEventListener('click', function () {
     }
 });
 
-document.getElementById("button").addEventListener("click", function (ev) {
-    ev.preventDefault();
-    TweenLite.to(window, 1, {scrollTo: this.getAttribute("href")})
-});
+const button = document.getElementById("button");
+
+if (button) {
+    button.addEventListener("click", function (ev) {
+        ev.preventDefault();
+        TweenLite.to(window, 1, {scrollTo: this.getAttribute("href")})
+    })
+}
