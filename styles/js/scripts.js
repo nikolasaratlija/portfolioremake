@@ -20,9 +20,7 @@ document.getElementById('mobilenav').addEventListener('click', function () {
         TweenLite.to(nav, .25, {height: '26vh'});
         navIsShown = true;
     } else {
-        TweenLite.to(
-            nav, .25,
-            {
+        TweenLite.to(nav, .25, {
                 height: '0',
                 margin: '0',
                 onComplete: function () {
