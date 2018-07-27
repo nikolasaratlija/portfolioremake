@@ -21,7 +21,6 @@ a {
   text-decoration: none; }
 
 p {
-  text-align: center;
   margin: 0 20%;
   line-height: 1.618;
   font-size: 2vh; }
@@ -53,7 +52,8 @@ header {
     font-family: Poppins, sans-serif; }
   header p {
     margin-top: 0;
-    margin-bottom: 4vh; }
+    margin-bottom: 4vh;
+    text-align: center; }
 
 h1,
 h2 {
@@ -137,11 +137,11 @@ footer {
   footer .info {
     grid-column: 2; }
   footer h4 {
-    font-size: 2.125vh;
-    margin: 0;
-    text-align: center; }
+    font-size: 2.125vh; }
   footer p {
-    font-size: 1.6125vh;
+    font-size: 1.6125vh; }
+  footer h4, footer p {
+    text-align: center;
     margin: 0; }
   footer .links {
     width: 10vw;
@@ -186,7 +186,8 @@ footer {
     line-height: 1; }
   .index .aboutme h3 {
     font-size: 3vh;
-    margin: 2vh 0; }
+    margin: 2vh 0;
+    text-align: center; }
 .index .projects {
   display: flex; }
 .index .project {
@@ -367,7 +368,6 @@ footer {
   background: url(pattern_images/dark-geometric.webp) #ababab;
   color: black; }
 .aboutmepage .aboutmepart {
-  text-align: center;
   padding: 8vh 0; }
   .aboutmepage .aboutmepart h2 {
     line-height: 0.8;
@@ -375,7 +375,7 @@ footer {
     font-size: 17vh;
     color: black; }
   .aboutmepage .aboutmepart p {
-    font-size: 2vh; }
+    font-size: 2.75vh; }
 
 /*<======= Start of css lines responsible for responsive behaviour*/
 @media screen and (max-width: 1024px) {
@@ -383,15 +383,13 @@ footer {
     margin-top: 0;
     font-size: 2.5vh; }
 
-  header h1 .h1-big {
+  body header h1 .h1-big {
     font-size: 30vw; }
-  header h1 .h1-small {
+  body header h1 .h1-small {
     font-size: 24vw; }
-  header h2 {
+  body header h2 {
     line-height: 1.2;
     margin: 3vh; }
-  header p {
-    font-size: 2.5vh; }
 
   nav {
     display: none;
@@ -412,19 +410,12 @@ footer {
   .mobilenav {
     display: inline-block; }
 
-  .howtohire h2 {
-    font-size: 9vh;
-    line-height: 0.8; }
-  .howtohire h3 {
-    text-align: center;
-    margin: 3vh 0; }
-
   footer {
     grid-template-columns: 1fr; }
     footer .signature {
       display: none; }
     footer .links {
-      width: 40%; }
+      width: 30vw; }
     footer h4 {
       font-size: 3vh; }
     footer p {
@@ -443,9 +434,6 @@ footer {
 
   .index .aboutme h2 {
     font-size: 12vh; }
-  .index .aboutme h3 {
-    margin: 5% 10%;
-    text-align: center; }
   .index .projects {
     flex-direction: column; }
   .index .howtohire {
@@ -463,14 +451,20 @@ footer {
     .portfolio .portproject .buttons {
       font-size: 2.5vh; }
 
+  .projectscarousel .h1-big {
+    font-size: 29vw; }
+  .projectscarousel .h1-small {
+    font-size: 21vw; }
+
   .contact main h2 {
     font-size: 18vh; }
   .contact form {
     padding: 0 5%; }
+    .contact form input:not([type=submit]) {
+      height: 7vh; }
     .contact form input:not([type=submit]),
     .contact form textarea {
       margin-top: 4vh;
-      height: 7.5vh;
       font-size: 3vh; }
     .contact form .buttons {
       font-size: 2.75vh;

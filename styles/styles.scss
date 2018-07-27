@@ -25,7 +25,6 @@ a {
 }
 
 p {
-  text-align: center;
   margin: 0 20%;
   line-height: 1.618;
   font-size: 2vh;
@@ -69,6 +68,7 @@ header {
   p {
     margin-top: 0;
     margin-bottom: 4vh;
+    text-align: center;
   }
 }
 
@@ -172,18 +172,13 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 
-  .info {
-    grid-column: 2;
-  }
+  .info {grid-column: 2;}
 
-  h4 {
-    font-size: 2.125vh;
-    margin: 0;
+  h4 {font-size: 2.125vh;}
+  p {font-size: 1.6125vh;}
+
+  h4, p {
     text-align: center;
-  }
-
-  p {
-    font-size: 1.6125vh;
     margin: 0;
   }
 
@@ -247,6 +242,7 @@ footer {
     h3 {
       font-size: 3vh;
       margin: 2vh 0;
+      text-align: center;
     }
   }
 
@@ -512,7 +508,6 @@ footer {
   }
 
   .aboutmepart {
-    text-align: center;
     padding: 8vh 0;
 
     h2 {
@@ -522,7 +517,7 @@ footer {
       color: black;
     }
 
-    p {font-size: 2vh}
+    p {font-size: 2.75vh}
   }
 }
 
@@ -534,7 +529,7 @@ footer {
     font-size: 2.5vh;
   }
 
-  header {
+  body header {
     h1 {
       .h1-big {font-size: 30vw}
       .h1-small {font-size: 24vw}
@@ -544,8 +539,6 @@ footer {
       line-height: 1.2;
       margin: 3vh;
     }
-
-    p {font-size: 2.5vh;}
   }
 
   nav {
@@ -571,23 +564,11 @@ footer {
 
   .mobilenav {display: inline-block}
 
-  .howtohire {
-    h2 {
-      font-size: 9vh;
-      line-height: 0.8;
-    }
-
-    h3 {
-      text-align: center;
-      margin: 3vh 0;
-    }
-  }
-
   footer {
     grid-template-columns: 1fr;
 
     .signature {display: none}
-    .links {width: 40%}
+    .links {width: 30vw}
     h4 {font-size: 3vh;}
     p {font-size: 2vh;}
 
@@ -610,12 +591,6 @@ footer {
 
   .index {
     .aboutme h2 {font-size: 12vh}
-
-    .aboutme h3 {
-      margin: 5% 10%;
-      text-align: center;
-    }
-
     .projects {flex-direction: column}
     .howtohire {margin-top: 0}
   }
@@ -633,16 +608,24 @@ footer {
     .buttons {font-size: 2.5vh}
   }
 
+  .projectscarousel {
+    .h1-big {font-size: 29vw}
+    .h1-small {font-size: 21vw}
+  }
+
   .contact {
     main h2 {font-size: 18vh}
 
     form {
       padding: 0 5%;
 
+      input:not([type=submit]) {
+        height: 7vh;
+      }
+
       input:not([type=submit]),
       textarea {
         margin-top: 4vh;
-        height: 7.5vh;
         font-size: 3vh;
       }
 
